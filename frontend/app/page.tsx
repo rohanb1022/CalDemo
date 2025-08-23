@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button"
 
 export default function LandingPage() {
   return (
@@ -49,6 +50,8 @@ export default function LandingPage() {
               <span>Get Started</span>
               <ArrowRight className="w-4 h-4" />
             </button>
+            <Button>Click here</Button>
+            But
           </Link>
         </motion.div>
 
