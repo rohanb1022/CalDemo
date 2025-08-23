@@ -124,7 +124,7 @@ export function HeroSection() {
                                             asChild
                                             size="lg"
                                             className="rounded-xl px-5 text-base">
-                                            <Link href="#link">
+                                            <Link href="/calculator/home">
                                                 <span className="text-nowrap">Start Calculating</span>
                                             </Link>
                                         </Button>

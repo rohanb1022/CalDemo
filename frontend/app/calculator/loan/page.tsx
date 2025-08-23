@@ -18,21 +18,8 @@ import {
   Tooltip,
   Legend,
 } from "recharts";
+import { NavbarDemo } from "@/components/Navbar";
 
-// Navbar Component
-const Navbar = () => (
-  <nav className="w-full bg-[#fdfbf7] text-black px-10 py-6 flex items-center shadow-md border-b border-gray-200">
-    <h1 className="text-3xl font-bold tracking-tight">Company name</h1>
-    <div className="flex-1 flex justify-center space-x-12 text-xl font-medium">
-      <button className="hover:text-blue-600 transition-colors">Calculators</button>
-      <button className="hover:text-blue-600 transition-colors">Most Used</button>
-    </div>
-    <button className="flex items-center gap-2 text-red-600 font-semibold hover:text-red-700 transition-colors text-lg">
-      <LogOut size={24} />
-      Logout
-    </button>
-  </nav>
-);
 
 const COLORS = ["#2563eb", "#e5e7eb"]; // Interest: blue, Principal: light gray
 
@@ -69,7 +56,9 @@ export default function LoanEMICalculator() {
 
   return (
     <div className="min-h-screen bg-[#fdfbf7]">
-      <Navbar />
+      <div className="mt-2" >
+        <NavbarDemo />
+      </div>
 
       <div className="max-w-7xl mx-auto py-10 px-4">
         <Card className="p-6 bg-white shadow rounded-2xl">
