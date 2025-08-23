@@ -1,56 +1,82 @@
 import { Logos3 } from "@/components/ui/logos3"
 
 const demoData = {
-  heading: "Trusted by these companies",
+  heading: "",
   logos: [
-    {
-      id: "logo-1",
-      description: "Company 1",
-      image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=200&h=100&fit=crop&crop=center",
-      className: "h-7 w-auto",
-    },
-    {
-      id: "logo-2",
-      description: "Company 2",
-      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=200&h=100&fit=crop&crop=center",
-      className: "h-7 w-auto",
-    },
-    {
-      id: "logo-3",
-      description: "Company 3",
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=200&h=100&fit=crop&crop=center",
-      className: "h-7 w-auto",
-    },
-    {
-      id: "logo-4",
-      description: "Company 4",
-      image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=200&h=100&fit=crop&crop=center",
-      className: "h-7 w-auto",
-    },
-    {
-      id: "logo-5",
-      description: "Company 5",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200&h=100&fit=crop&crop=center",
-      className: "h-7 w-auto",
-    },
-    {
-      id: "logo-6",
-      description: "Company 6",
-      image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=200&h=100&fit=crop&crop=center",
-      className: "h-7 w-auto",
-    },
-    {
-      id: "logo-7",
-      description: "Company 7",
-      image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=200&h=100&fit=crop&crop=center",
-      className: "h-4 w-auto",
-    },
-    {
-      id: "logo-8",
-      description: "Company 8",
-      image: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=200&h=100&fit=crop&crop=center",
-      className: "h-7 w-auto",
-    },
+  {
+    "id": "logo-sbi-bank",
+    "description": "State Bank of India",
+    "image": "https://discovertemplate.com/wp-content/uploads/2024/04/SBI.jpg",
+    "className": "h-16 w-auto"
+  },
+  {
+    "id": "logo-hdfc-bank",
+    "description": "HDFC Bank",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSquouX3qJzp6uZwleCOtTBppHfDKlN6vDHg&s",
+    "className": "h-16 w-auto"
+  },
+  {
+    "id": "logo-icici-bank",
+    "description": "ICICI Bank",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-I9gA69H54O-EwGRh_LvMdR0dX6bAHoSSzA&s",
+    "className": "h-16 w-auto"
+  },
+  {
+    "id": "logo-kotak-bank",
+    "description": "Kotak Mahindra Bank",
+    "image": "https://wp.logos-download.com/wp-content/uploads/2016/06/Kotak_Mahindra_Bank_logo.png?dl",
+    "className": "h-16 w-auto"
+  },
+  {
+    "id": "logo-axis-bank",
+    "description": "Axis Bank",
+    "image": "https://www.jobsgyan.in/wp-content/uploads/2021/05/Axis-Bank-PNG-Logo-.png",
+    "className": "h-16 w-auto"
+  },
+  {
+    "id": "logo-pnb-bank",
+    "description": "Punjab National Bank",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOI4FaM2MMnDk1UbN0fsacHcypzTZHL69ftQ&s",
+    "className": "h-16 w-auto"
+  },
+  {
+    "id": "logo-sbi-bank",
+    "description": "State Bank of India",
+    "image": "https://discovertemplate.com/wp-content/uploads/2024/04/SBI.jpg",
+    "className": "h-16 w-auto"
+  },
+  {
+    "id": "logo-hdfc-bank",
+    "description": "HDFC Bank",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSquouX3qJzp6uZwleCOtTBppHfDKlN6vDHg&s",
+    "className": "h-16 w-auto"
+  },
+  {
+    "id": "logo-icici-bank",
+    "description": "ICICI Bank",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-I9gA69H54O-EwGRh_LvMdR0dX6bAHoSSzA&s",
+    "className": "h-16 w-auto"
+  },
+  {
+    "id": "logo-kotak-bank",
+    "description": "Kotak Mahindra Bank",
+    "image": "https://wp.logos-download.com/wp-content/uploads/2016/06/Kotak_Mahindra_Bank_logo.png?dl",
+    "className": "h-16 w-auto"
+  },
+  {
+    "id": "logo-axis-bank",
+    "description": "Axis Bank",
+    "image": "https://www.jobsgyan.in/wp-content/uploads/2021/05/Axis-Bank-PNG-Logo-.png",
+    "className": "h-16 w-auto"
+  },
+  {
+    "id": "logo-pnb-bank",
+    "description": "Punjab National Bank",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOI4FaM2MMnDk1UbN0fsacHcypzTZHL69ftQ&s",
+    "className": "h-16 w-auto"
+  }
+
+
   ],
 };
 
@@ -59,3 +85,4 @@ function Logos3Demo() {
 }
 
 export { Logos3Demo };
+
